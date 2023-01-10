@@ -7,4 +7,5 @@ before_install:
 
 script:
     - docker run -e CI=true kpaco/docker-react npm run test
-    - language: generic
+
+language: generic
